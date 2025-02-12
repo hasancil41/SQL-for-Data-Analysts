@@ -1,4 +1,9 @@
 # SQL Query with LAG() and LEAD() Functions (with PARTITION BY and ORDER BY)
+LAG() and LEAD() are window functions in SQL that provide a way to access data from a different row in the same result set without using a self-join. They are often used in data analysis to compare the current row with the previous or next row.
+
+LAG() function fetches the value from a row that is a certain number of rows before the current row within the same result set. It's useful when you want to compare a value in a row with a value in a preceding row.
+
+LEAD() function fetches the value from a row that is a certain number of rows after the current row within the same result set.
 
 ## Overview
 
